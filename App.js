@@ -5,7 +5,6 @@ import ScreenB from "./src/views/ScreenB";
 import ScreenC from "./src/views/ScreenC";
 
 export default () => {
-  //
   return (
     <SafeAreaView style={styles.viewArea}>
       <ScreenA />
