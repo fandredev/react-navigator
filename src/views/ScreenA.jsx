@@ -1,14 +1,10 @@
 import React from 'react'
-import { SafeAreaView } from 'react-native';
 import TextView from "../components/TextView";
 
 const ScreenA = () => (
-  <SafeAreaView>
-    <TextView
-    >
+    <TextView>
       Screen A
     </TextView>
-  </SafeAreaView>
 );
    
 
