@@ -2,7 +2,7 @@ import React from "react";
 import TextView from "../components/TextView";
 
 const ScreenB = () => {
-  return <TextView bg={'green'}>Screen A</TextView>;
+  return <TextView>Screen B</TextView>;
 };
 
 export default ScreenB;

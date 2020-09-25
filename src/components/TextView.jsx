@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet } from "react-native";
 
 
 
@@ -9,11 +9,9 @@ const TextView = ({children,bg="#000",text="#fff"}) => {
       flex: 1,
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundColor: bg,
-      color: text
     },
     text: {
-      fontSize: 50
+      fontSize: 30
     }
   })
   return (
